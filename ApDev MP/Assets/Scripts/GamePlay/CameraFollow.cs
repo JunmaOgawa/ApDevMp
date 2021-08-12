@@ -27,7 +27,7 @@ public class CameraFollow : MonoBehaviour
 
     void Start()
     {
-        offset.z = -5;
+        offset.z = -10;
     }
 
     void Update()
