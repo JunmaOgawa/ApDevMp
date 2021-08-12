@@ -165,11 +165,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 970312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4afc0435bd61eea469e63d7ab1f9a85e, type: 3}
+  m_Script: {fileID: 11500000, guid: dbe0e21f3fd5c164aafc6deca7404afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xySpeed: 18
-  lookSpeed: 340
+  xySpeed: 9
+  lookSpeed: 200
   forwardSpeed: 6
   aimTarget: {fileID: 1588877127}
   dolly: {fileID: 2070625931}
@@ -1854,7 +1854,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 504698189}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c082c9ae0fdc99842a6aa32ae2ab82d6, type: 3}
+  m_Script: {fileID: 11500000, guid: ca0e68036e8f22e4e970da6995722309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   JoystickParent: {fileID: 504698192}
@@ -9428,7 +9428,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2115395467}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f9cb77da5a79f04d9b9ae420e9393c4, type: 3}
+  m_Script: {fileID: 11500000, guid: f6bbf7a894c060a4fa73b329fa1eacff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 970313}
