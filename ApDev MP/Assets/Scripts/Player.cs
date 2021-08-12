@@ -21,6 +21,11 @@ public class Player : MonoBehaviour
     public CinemachineDollyCart dolly;
     public Transform cameraParent;
 
+    [Space]
+
+    [Header("Public References")]
+    public JoyStick joystick;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +36,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float h = Input.GetAxis("Mouse X");
-        float v = Input.GetAxis("Mouse Y");
+        float h = joystick.JoystickAxis.x ;
+        float v = joystick.JoystickAxis.y ;
 
         LocalMove(h, v, xySpeed);
         RotationLook(h, v, lookSpeed);
@@ -58,7 +63,7 @@ public class Player : MonoBehaviour
         aimTarget.localPosition = new Vector3(h, v, 1);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(aimTarget.position), Mathf.Deg2Rad * speed * Time.deltaTime);
     }
-    
+
     void HorizontalLean(Transform target, float axis, float leanLimit, float lerpTime)
     {
         Vector3 targetEulerAngels = target.localEulerAngles;
