@@ -39,6 +39,8 @@ public class Player : MonoBehaviour
         float h = joystick.JoystickAxis.x ;
         float v = joystick.JoystickAxis.y ;
 
+        //transform.rotation.eulerAngles = new Vector3(0,0,-90 * Input.GetAxis("Barrel Roll"));
+
         LocalMove(h, v, xySpeed);
         RotationLook(h, v, lookSpeed);
         HorizontalLean(playerModel, h, 80, .1f);

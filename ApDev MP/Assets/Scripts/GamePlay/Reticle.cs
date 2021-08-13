@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class Reticle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         transform.LookAt(Camera.main.transform.position + Camera.main.transform.rotation * Vector3.forward);
