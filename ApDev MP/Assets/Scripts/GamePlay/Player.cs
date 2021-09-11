@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
@@ -82,5 +83,13 @@ public class Player : MonoBehaviour
     void SetSpeed(float x)
     {
         dolly.m_Speed = x;
+    }
+
+    public void QuickSpin(int dir)
+    {
+        if (!DOTween.IsTweening(playerModel))
+        {
+            playerModel.DOLocalRotate(new Vector3(playerModel.localEulerAngles.x, playerModel.localEulerAngles.y, 360 * -dir), .4f, RotateMode.LocalAxisAdd).SetEase(Ease.OutSine);
+        }
     }
 }
