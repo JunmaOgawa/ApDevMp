@@ -5,9 +5,12 @@ using UnityEngine;
 public class ShootForward : MonoBehaviour
 {
     public Rigidbody bullet;
+    public Rigidbody rBullet;
+    public Rigidbody gBullet;
+    public Rigidbody bBullet;
     public float velocity = 10.0f;
     public float fireCountDown = 0.0f;
-    public float fireRate = 5f;
+    public float fireRate = 10f;
     bool firing = false;
     // Update is called once per frame
 
