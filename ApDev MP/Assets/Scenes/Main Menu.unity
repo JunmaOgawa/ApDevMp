@@ -150,11 +150,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b2181ff8b62da0248a95d3c28e1e67bc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d3d1979c59d0d5a4aa06f89bf3b23f18, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5703,7 +5703,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1668132593}
   - component: {fileID: 1668132592}
-  - component: {fileID: 1668132594}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -5737,25 +5736,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1668132594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1668132591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cf2b65f780c0a640b3645ca9009d049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
-    source: {fileID: 0}
 --- !u!1 &1684451339
 GameObject:
   m_ObjectHideFlags: 0
