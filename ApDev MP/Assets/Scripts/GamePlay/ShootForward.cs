@@ -10,9 +10,19 @@ public class ShootForward : MonoBehaviour
     public Rigidbody bBullet;
     public float velocity = 10.0f;
     public float fireCountDown = 0.0f;
-    public float fireRate = 10f;
+    public float fireRate = .5f;
     bool firing = false;
     // Update is called once per frame
+
+    private void Start()
+    {
+        if (PlayerPrefs.GetInt("MaxAttackSpeed") == 1)
+        {
+            fireRate = 0.4f;//2.5 AttackSpeed
+            //Debug.Log(PlayerPrefs.GetInt("MaxAttackSpeed"));
+        }
+        else fireRate = PlayerPrefs.GetInt("AttackSpeed");
+    }
 
     private void FixedUpdate()
     {
