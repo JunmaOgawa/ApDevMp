@@ -27,6 +27,12 @@ public class Player : MonoBehaviour
     [Header("Public References")]
     public JoyStick joystick;
 
+    [Space]
+
+    [Header("HP And Name")]
+    public int HP = PlayerPrefs.GetInt("HP");
+    public string Name = PlayerPrefs.GetString("Name");
+
     // Start is called before the first frame update
     void Start()
     {

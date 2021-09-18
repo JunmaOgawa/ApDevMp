@@ -13,7 +13,8 @@ public class EnemyAi : MonoBehaviour
     public Material RedMaterial;
     public Material BlueMaterial;
     public Material GreenMaterial;
-    public MeshRenderer EnemyMeshRenderer;
+    //public MeshRenderer EnemyMeshRenderer;
+    Renderer rend;
 
     public Transform player;
 
@@ -26,6 +27,8 @@ public class EnemyAi : MonoBehaviour
     public float attackRange; // ,sightRange
     public bool playerInAttackRange;
 
+    
+
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -33,15 +36,15 @@ public class EnemyAi : MonoBehaviour
         health = 3;
         if(type == 0) //red
         {
-            EnemyMeshRenderer.materials[1] = RedMaterial;
+            //EnemyMeshRenderer.materials[1] = RedMaterial;
         }
         else if(type == 1) //green
         {
-            EnemyMeshRenderer.materials[1] = GreenMaterial;
+            //EnemyMeshRenderer.materials[1] = GreenMaterial;
         }
         else if(type == 2) //blue
         {
-            EnemyMeshRenderer.materials[1] = BlueMaterial;
+            //EnemyMeshRenderer.materials[1] = BlueMaterial;
         }
         //agent = GetComponent<NavMeshAgent>();
     }
@@ -83,7 +86,7 @@ public class EnemyAi : MonoBehaviour
     {
         Destroy(gameObject);
         FindObjectOfType<AudioManager>().Play("Death");
-        FindObjectOfType<PointManager>().AddPoints();
+        // FindObjectOfType<PointManager>().AddPoints();
     }
 
     private void OnDrawGizmosSelected()
