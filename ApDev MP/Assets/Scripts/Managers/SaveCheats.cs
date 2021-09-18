@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class SaveCheats : MonoBehaviour
 {
+<<<<<<< Updated upstream
+=======
+    public Toggle maxAttackSpeed;
+    public Toggle invunerability;
+>>>>>>> Stashed changes
 
     public void SetAttackSpeedValue(bool value)
     {
@@ -24,6 +29,7 @@ public class SaveCheats : MonoBehaviour
         if (value) PlayerPrefs.SetInt("Invunerability", 1);
         else PlayerPrefs.SetInt("Invunerability", 0);
     }
+<<<<<<< Updated upstream
 
     public void SetPlayerName(InputField name)
     {
@@ -32,4 +38,6 @@ public class SaveCheats : MonoBehaviour
         Debug.Log(name.text);
     }
 
+=======
+>>>>>>> Stashed changes
 }
