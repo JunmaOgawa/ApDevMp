@@ -1675,19 +1675,11 @@ MonoBehaviour:
     roll: 0
   - position: {x: 1, y: 0, z: 28.500366}
     roll: 0
-  - position: {x: 2, y: 24.37422, z: 62.000732}
-    roll: 0
-  - position: {x: 3, y: 46.00798, z: 95.5011}
-    roll: 0
-  - position: {x: 4, y: 43.16686, z: 129.00146}
-    roll: 0
-  - position: {x: 5, y: -1.9917991, z: 162.50183}
+  - position: {x: 4, y: 46.531956, z: 129.00146}
     roll: 0
   - position: {x: 6, y: -29.15458, z: 196.0022}
     roll: 0
   - position: {x: 110.20878, y: -110.64292, z: 281.3636}
-    roll: 0
-  - position: {x: 144.94504, y: -67.244675, z: 317.1719}
     roll: 0
   - position: {x: 179.6813, y: -29.06252, z: 352.98022}
     roll: 0
@@ -1701,45 +1693,23 @@ MonoBehaviour:
     roll: 0
   - position: {x: 11.472839, y: -137.20738, z: 328.77145}
     roll: 0
-  - position: {x: -75.68104, y: -166.91013, z: 383.4595}
-    roll: 0
-  - position: {x: -144.50897, y: -193.35625, z: 398.1027}
-    roll: 0
-  - position: {x: -183.50443, y: -194.359, z: 412.74588}
-    roll: 0
-  - position: {x: -198.02257, y: -144.93321, z: 427.38907}
+  - position: {x: -144.50897, y: -210.99734, z: 398.1027}
     roll: 0
   - position: {x: -189.38841, y: -95.50743, z: 446.14737}
     roll: 0
-  - position: {x: -180.75426, y: -46.08165, z: 493.53424}
-    roll: 0
-  - position: {x: -115.90566, y: 40.92444, z: 571.28827}
-    roll: 0
-  - position: {x: -51.057068, y: 43.08628, z: 649.0423}
+  - position: {x: -115.90566, y: 50.612957, z: 571.28827}
     roll: 0
   - position: {x: 75.98, y: 1.0034034, z: 694.5131}
     roll: 0
   - position: {x: 203.01707, y: -41.079475, z: 773.31006}
     roll: 0
-  - position: {x: 255.39609, y: -41.088387, z: 728.7849}
-    roll: 0
-  - position: {x: 217.91489, y: -42.180477, z: 684.25977}
-    roll: 0
-  - position: {x: 180.43369, y: -64.91554, z: 639.7346}
+  - position: {x: 265.30826, y: -31.024221, z: 728.7849}
     roll: 0
   - position: {x: 130.47946, y: -107.606064, z: 564.9664}
     roll: 0
-  - position: {x: 80.52524, y: -195.1893, z: 445.262}
-    roll: 0
   - position: {x: 12.948726, y: -206.79837, z: 338.712}
     roll: 0
-  - position: {x: 76.01938, y: -63.62428, z: 232.16202}
-    roll: 0
-  - position: {x: 5.698484, y: -60.60811, z: 126.06462}
-    roll: 0
-  - position: {x: -64.622406, y: -57.591938, z: 19.967224}
-    roll: 0
-  - position: {x: -37.000145, y: -27.031677, z: -3.5900478}
+  - position: {x: -26.115395, y: -60.60811, z: 56.88703}
     roll: 0
   - position: {x: -4.935532, y: -10.247915, z: -7.05974}
     roll: 0
@@ -2592,8 +2562,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549418509}
-  m_LocalRotation: {x: -0.046206906, y: 0.001952522, z: 0.00009031663, w: 0.99893}
-  m_LocalPosition: {x: -5.5321655, y: 3.892577, z: -35.489536}
+  m_LocalRotation: {x: 0.25785336, y: -0.12279471, z: 0.033058815, w: 0.9577788}
+  m_LocalPosition: {x: -3.4378147, y: 9.705356, z: -33.32285}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3085,7 +3055,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935784071}
-  m_LocalRotation: {x: -0.046206906, y: 0.001952522, z: 0.00009031663, w: 0.99893}
+  m_LocalRotation: {x: 0.25785336, y: -0.12279471, z: 0.033058815, w: 0.9577788}
   m_LocalPosition: {x: -5.4928794, y: 3.82, z: -25.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
