@@ -7,6 +7,11 @@ using Unity.Notifications.Android;
 
 public class NotificationHandler : MonoBehaviour
 {
+
+    int hours = 0;
+    int minutes = 10;
+    int seconds = 0;
+
     private void BuildDefaultNotificationChannel()
     {
         string channel_id = "default";
@@ -27,6 +32,22 @@ public class NotificationHandler : MonoBehaviour
     {
         BuildDefaultNotificationChannel();
     }
+
+    public void changeTimeHours(int hur)
+    {
+        hours = hur;
+    }
+
+    public void changeTimeMinutes(int min)
+    {
+        minutes = min;
+    }
+
+    public void changeTimeSeconds(int sec)
+    {
+        seconds = sec;
+    }
+
     public void SendSimpleNotif()
     {
         string notif_title = "Simple Notif";
@@ -67,7 +88,7 @@ public class NotificationHandler : MonoBehaviour
 
         System.DateTime fireTime = System.DateTime.Now.AddSeconds(10);
 
-        System.TimeSpan interval = new System.TimeSpan(0, 10, 0);
+        System.TimeSpan interval = new System.TimeSpan(hours, minutes, seconds);
 
         AndroidNotification notif = new AndroidNotification(notif_title,
                                                             notif_message,

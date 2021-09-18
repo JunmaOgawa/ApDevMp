@@ -12,7 +12,7 @@ public class BallHit : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(this.gameObject);
-            FindObjectOfType<AudioManager>().Play("Death");
+            
         }
         else if(collision.collider.tag == "Player" || collision.collider.tag == "Bullet")
         {
