@@ -57,6 +57,8 @@ public class Player : MonoBehaviour
         RotationLook(h, v, lookSpeed);
         HorizontalLean(playerModel, h, 80, .1f);
 
+        healthbar.SetHealth(HP);
+
         if (HP <= 0)
         {
             Destroy(gameObject);
