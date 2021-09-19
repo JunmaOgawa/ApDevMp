@@ -104,17 +104,17 @@ public class BossBehavior : MonoBehaviour
                 player.GotHit();
                 break;
             case "Red":
-                if (type == 0) health -= 3;
+                if (type == 0) health -= 4;
                 else health--;
                 Destroy(collision.gameObject);
                 break;
             case "Green":
-                if (type == 1) health -= 3;
+                if (type == 1) health -= 4;
                 else health--;
                 Destroy(collision.gameObject);
                 break;
             case "Blue":
-                if (type == 2) health -= 3;
+                if (type == 2) health -= 4;
                 else health--;
                 Destroy(collision.gameObject);
                 break;

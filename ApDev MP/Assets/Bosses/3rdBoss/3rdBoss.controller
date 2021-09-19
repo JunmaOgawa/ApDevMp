@@ -92,7 +92,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Attack
-  m_Speed: 1
+  m_Speed: 0.1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3437618576875793884}
@@ -188,7 +188,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Idle
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6014589057028888364}

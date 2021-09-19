@@ -25,10 +25,10 @@ public class BossMan : MonoBehaviour
     {
         playerTransform = GameObject.Find("GameplayPlane").transform;//find player transform
         //parameters
-        health = 80;//set health
+        health = 40;//set health
         type = 2;//set type
 
-        timeBetweenAttacks = 5f;
+        timeBetweenAttacks = 20f;
         attackRange = 10000;
     }
 
@@ -44,6 +44,7 @@ public class BossMan : MonoBehaviour
 
         if (health <= 0)
         {
+            animator.SetTrigger("onDeath");
             Destroy(gameObject);
             FindObjectOfType<AudioManager>().Play("Death");
         }
@@ -55,6 +56,7 @@ public class BossMan : MonoBehaviour
         if (!alreadyAttacked)
         {
             animator.SetTrigger("onAttack");
+            player.HP -= 5;
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
@@ -74,17 +76,19 @@ public class BossMan : MonoBehaviour
                 player.GotHit();
                 break;
             case "Red":
-                if (type == 0) health -= 3;
+                if (type == 0) health -= 4;
                 else health--;
+                animator.SetTrigger("onDamaged");
                 Destroy(collision.gameObject);
                 break;
             case "Green":
-                if (type == 1) health -= 3;
+                if (type == 1) health -= 4;
                 else health--;
+                animator.SetTrigger("onDamaged");
                 Destroy(collision.gameObject);
                 break;
             case "Blue":
-                if (type == 2) health -= 3;
+                if (type == 2) health -= 4;
                 else health--;
                 animator.SetTrigger("onDamaged");
                 Destroy(collision.gameObject);

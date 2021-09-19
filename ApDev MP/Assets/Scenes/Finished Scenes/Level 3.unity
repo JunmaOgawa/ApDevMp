@@ -2294,7 +2294,7 @@ PrefabInstance:
       objectReference: {fileID: 694431545}
     - target: {fileID: 5423758481186252508, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: forwardSpeed
-      value: 50
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5423758481186252509, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: bBullet
@@ -2368,9 +2368,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameplayPlane
       objectReference: {fileID: 0}
-    - target: {fileID: 8421964856120482268, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+    - target: {fileID: 5423758481578235423, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421964856120482268, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
