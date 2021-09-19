@@ -10,7 +10,7 @@ public class BossBehavior : MonoBehaviour
     public LayerMask whatIsPlayer;
 
     //parameters
-    public float health;
+    public int health;
     public int type; //0 = R, 1 = G, 2 = B
     public Rigidbody projectile;
 
@@ -27,6 +27,8 @@ public class BossBehavior : MonoBehaviour
     public float attackRange;
     public bool playerInAttackRange;
 
+    public HealthBar healthbar;
+
     //pointManager
     //public PointManager pointManager;
 
@@ -39,6 +41,8 @@ public class BossBehavior : MonoBehaviour
 
         timeBetweenAttacks = 0.5f;
         attackRange = 5000;
+
+        healthbar.SetMaxHealth(health);
 
         /*//change color to type
         rend = GetComponent<Renderer>();
@@ -72,6 +76,7 @@ public class BossBehavior : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Death");
             // FindObjectOfType<PointManager>().AddPoints();
         }
+        healthbar.SetMaxHealth(health);
     }
 
     private void AttackPlayer()
