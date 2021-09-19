@@ -134,6 +134,161 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe0e21f3fd5c164aafc6deca7404afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &10740372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799364543402, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &10740377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10740372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &41549900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799925696194, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &41549905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41549900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &72147138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800580589578, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &72147143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72147138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &81990576 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799013317426, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &81990581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81990576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &127658928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799290853392, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &127658933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127658928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!4 &198496555 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5423758481578235420, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
@@ -182,6 +337,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &237898638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800814326165, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &237898643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237898638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1 &251605788
 GameObject:
   m_ObjectHideFlags: 3
@@ -282,6 +468,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &297170972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3673648042233583874, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+  m_PrefabInstance: {fileID: 5423758481185351830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &297170974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297170972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748c4a5fff6af534089f1b9acd4477be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 40
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 0.5
+  attackRange: 5000
+  playerInAttackRange: 1
 --- !u!1 &351948367
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +597,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &407952452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800129198938, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &407952457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407952452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &416047012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798995198311, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &416047017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416047012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1001 &423088573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -461,6 +740,68 @@ PrefabInstance:
       objectReference: {fileID: 5423758481185351831}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
+--- !u!1 &423971152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799209219672, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &423971157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423971152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &490065085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800525077834, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &490065090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490065085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!114 &504698191 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5455899229977658672, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
@@ -539,6 +880,68 @@ MonoBehaviour:
   pauseObject: {fileID: 5455899230079045760}
   pauseButton: {fileID: 5455899230079045762}
   resumeButton: {fileID: 5455899230079045761}
+--- !u!1 &604698106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800370622422, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &604698111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604698106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &649596811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799235522265, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &649596816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649596811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +1040,130 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8407101796841228486, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
   m_PrefabInstance: {fileID: 5423758481185351830}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &813538501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799524273151, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &813538506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813538501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &869190622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800023159250, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &869190627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &953942402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800744842170, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &953942407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953942402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &955915087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799487095573, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &955915092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955915087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +1282,285 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &974956296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799768114737, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &974956301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974956296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1012135765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800659971498, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1012135770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012135765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1080002570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800711363278, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1080002575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080002570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1086892983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800149125154, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1086892988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086892983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1112591460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799868704763, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1112591465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112591460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1144928051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798744826115, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1144928056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144928051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1164648914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799422394918, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1164648919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164648914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1207664712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800002400087, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1207664717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207664712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1296447867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798951985058, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1296447872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296447867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1 &1342083653
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +1627,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1349389485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798997252357, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1349389490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349389485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1368360600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800687648400, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1368360605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368360600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1 &1430143167
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +1756,161 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1449857083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800053493203, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1449857088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449857083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1457583881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798799782538, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1457583886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457583881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1554678679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798966467906, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1554678684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554678679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1556583646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800843000517, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1556583651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556583646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1560947281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799138411651, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1560947286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560947281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!114 &1668377186 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5423758481186252509, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
@@ -899,6 +1922,254 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 988bb996adb38d24699ba520c008dd46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1684991604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800170919614, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1684991609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684991604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1821847032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799273756511, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1821847037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821847032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1875011813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800533245825, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1875011818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875011813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1877728092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799718729711, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1877728097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877728092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1899125017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799217396511, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1899125022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899125017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1912839781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799164893353, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1912839786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912839781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1917603197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798918223538, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1917603202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917603197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &1961103281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013798719183594, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1961103286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961103281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1 &1969380849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,6 +2297,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1976852871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799803124654, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1976852876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976852871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1 &1992012953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +2512,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2063101098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013800515025908, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2063101103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063101098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
+--- !u!1 &2104384320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090013799508979083, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
+  m_PrefabInstance: {fileID: 2090013800743490255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2104384325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104384320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f20e3b708d1e9c429a3248519ddee92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 970314}
+  playerTransform: {fileID: 198496555}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 3
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 1
+  attackRange: 0
+  playerInAttackRange: 0
 --- !u!1001 &2090013800743490255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1458,6 +2822,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3672204128443123664, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672204128443123664, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.57
+      objectReference: {fileID: 0}
     - target: {fileID: 3674627414232746266, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_IsActive
       value: 0
