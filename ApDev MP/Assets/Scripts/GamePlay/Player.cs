@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     [Header("HP And Name")]
     public int HP;
     public string Name;
+    public HealthBar healthbar;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,8 @@ public class Player : MonoBehaviour
         SetSpeed(forwardSpeed);
         HP = PlayerPrefs.GetInt("HP");
         Name = PlayerPrefs.GetString("Name");
+
+        healthbar.SetMaxHealth(HP);
     }
 
     // Update is called once per frame
@@ -120,5 +123,6 @@ public class Player : MonoBehaviour
     public void GotHit()
     {
         HP--;
+        healthbar.SetHealth(HP);
     }
 }
