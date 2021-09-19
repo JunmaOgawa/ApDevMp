@@ -100,4 +100,9 @@ public class Player : MonoBehaviour
             playerModel.DOLocalRotate(new Vector3(playerModel.localEulerAngles.x, playerModel.localEulerAngles.y, 360 * -dir), .4f, RotateMode.LocalAxisAdd).SetEase(Ease.OutSine);
         }
     }
+
+    public void GotHit()
+    {
+        HP--;
+    }
 }
