@@ -9,11 +9,12 @@ TagManager:
   - Red
   - Green
   - Blue
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - WhatIsPlayer
   - Water
   - UI
   - 

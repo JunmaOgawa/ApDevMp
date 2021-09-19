@@ -8,15 +8,9 @@ public class BallHit : MonoBehaviour
     {
         Invoke("DeleteOnTime", 2f);
 
-        if (collision.collider.tag == "Enemy")
+        if (collision.collider.tag == "Enemy" || collision.collider.tag == "Player" || collision.collider.tag == "Bullet")
         {
-            Destroy(collision.gameObject);
-            Destroy(this.gameObject);
             
-        }
-        else if(collision.collider.tag == "Player" || collision.collider.tag == "Bullet")
-        {
-
         }
         else
         {

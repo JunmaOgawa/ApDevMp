@@ -32,10 +32,13 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        playerTransform = GameObject.Find("Player").transform;//find player transform
+        playerTransform = GameObject.Find("GameplayPlane").transform;//find player transform
         //parameters
         health = 3;//set health
         type = Random.Range(0, 3);//set type
+
+        timeBetweenAttacks = 3;
+        attackRange = 30;
 
         //change color to type
         rend = GetComponent<Renderer>();
@@ -57,7 +60,11 @@ public class Enemy : MonoBehaviour
     private void Update()
     {
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
-        if (playerInAttackRange) AttackPlayer();
+        if (playerInAttackRange) 
+        {
+            Debug.Log("Player is in range");
+            AttackPlayer(); 
+        }
 
         if(health <= 0)
         {

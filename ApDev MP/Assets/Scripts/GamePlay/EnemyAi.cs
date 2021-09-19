@@ -35,6 +35,9 @@ public class EnemyAi : MonoBehaviour
         type = Random.Range(0,3);
         health = 3;
 
+        timeBetweenAttacks = 3;
+        attackRange = 15;
+
         rend = GetComponent<Renderer>();
         rend.enabled = true;
         if(type == 0) //red
