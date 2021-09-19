@@ -381,6 +381,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ee6535f71428504449546c25c0673573, type: 3}
   m_PrefabInstance: {fileID: 141201846}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &223484130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8014646906550855159, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+  m_PrefabInstance: {fileID: 1631712246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &223484132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223484130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74097083408b2cf4ebecc70a54fbd1e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1631792239}
+  playerTransform: {fileID: 687018154}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 80
+  type: 2
+  timeBetweenAttacks: 5
+  attackRange: 5000
+  playerInAttackRange: 1
+  animator: {fileID: 1631712252}
 --- !u!1 &239256854
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +870,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b635153924a26964a8ff847ab96f7af7, type: 3}
   m_PrefabInstance: {fileID: 673998101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &687018154 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5423758481578235420, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+  m_PrefabInstance: {fileID: 1631712246}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &694431543
 GameObject:
@@ -2243,6 +2276,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2977223489711330349, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2977223489711330349, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2977223489711330349, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5423758481186252508, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: joystick
       value: 
@@ -2263,6 +2308,14 @@ PrefabInstance:
       propertyPath: rBullet
       value: 
       objectReference: {fileID: 4222127380515268393, guid: 38ba1f05e84e7e84cb6dab39aa73e8e8, type: 3}
+    - target: {fileID: 5423758481186252509, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: velocity
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423758481186252510, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5423758481578235420, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2315,6 +2368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameplayPlane
       objectReference: {fileID: 0}
+    - target: {fileID: 8421964856120482268, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
 --- !u!1 &1631712247 stripped
@@ -2338,6 +2395,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 988bb996adb38d24699ba520c008dd46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1631712252 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2975516038062348572, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+  m_PrefabInstance: {fileID: 1631712246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1631792239 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5423758481186252508, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
