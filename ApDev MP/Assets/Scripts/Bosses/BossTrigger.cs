@@ -10,6 +10,7 @@ public class BossTrigger : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             boss.SetActive(true);
+            Debug.Log("it works bitch");
         }
     }
 }

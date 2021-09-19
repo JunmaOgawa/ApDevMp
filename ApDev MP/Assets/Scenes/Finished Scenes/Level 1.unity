@@ -351,7 +351,7 @@ MonoBehaviour:
     roll: 0
   - position: {x: 355.14038, y: -0.13462234, z: 149.58575}
     roll: 0
-  - position: {x: 352.78305, y: -1.3201044, z: 15.401983}
+  - position: {x: 336.8628, y: -1.3201044, z: 9.722}
     roll: 0
   - position: {x: 222.04262, y: -0.6896751, z: -14.173254}
     roll: 0
@@ -373,7 +373,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &423088573
 PrefabInstance:
@@ -382,13 +382,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5406275154723002373, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
-      propertyPath: boss
-      value: 
-      objectReference: {fileID: 5423758481185351831}
     - target: {fileID: 8860198562323564130, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
       propertyPath: m_Name
       value: BossTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860198562323564130, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860198562323564131, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860198562323564156, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8860198562323564158, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
       propertyPath: m_RootOrder
@@ -404,15 +412,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8860198562323564158, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 350.02
+      value: 350.75
       objectReference: {fileID: 0}
     - target: {fileID: 8860198562323564158, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.67
+      value: 10.15
       objectReference: {fileID: 0}
     - target: {fileID: 8860198562323564158, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 74.87736
+      value: 53.45
       objectReference: {fileID: 0}
     - target: {fileID: 8860198562323564158, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -442,6 +450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9070710298671556270, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 5423758481185351831}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
 --- !u!114 &504698191 stripped
@@ -613,7 +625,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &731086820 stripped
 GameObject:
@@ -869,7 +881,7 @@ Transform:
   m_Children:
   - {fileID: 251605789}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1668377186 stripped
 MonoBehaviour:
@@ -913,7 +925,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1074,7 +1086,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 541680300381266512, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 541680300381266512, guid: 3803742954e73174a8f2b99c5554ec5a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1315,6 +1327,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3674627414232746266, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423758481186252506, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423758481186252506, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5423758481186252508, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
