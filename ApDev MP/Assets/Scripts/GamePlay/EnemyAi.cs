@@ -14,7 +14,7 @@ public class EnemyAi : MonoBehaviour
     public Material BlueMaterial;
     public Material GreenMaterial;
     //public MeshRenderer EnemyMeshRenderer;
-    Renderer rend;
+    Renderer rend;    
 
     public Transform player;
 
@@ -32,19 +32,22 @@ public class EnemyAi : MonoBehaviour
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
-        type = Random.Range(0,2);
+        type = Random.Range(0,3);
         health = 3;
+
+        rend = GetComponent<Renderer>();
+        rend.enabled = true;
         if(type == 0) //red
         {
-            //EnemyMeshRenderer.materials[1] = RedMaterial;
+            rend.sharedMaterial = RedMaterial;
         }
         else if(type == 1) //green
         {
-            //EnemyMeshRenderer.materials[1] = GreenMaterial;
+            rend.sharedMaterial = GreenMaterial;
         }
         else if(type == 2) //blue
         {
-            //EnemyMeshRenderer.materials[1] = BlueMaterial;
+            rend.sharedMaterial = BlueMaterial;
         }
         //agent = GetComponent<NavMeshAgent>();
     }

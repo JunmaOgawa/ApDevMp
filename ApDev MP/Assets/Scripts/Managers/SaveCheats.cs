@@ -18,6 +18,7 @@ public class SaveCheats : MonoBehaviour
             PlayerPrefs.SetInt("MaxAttackSpeed", 0);
             //Debug.Log("MaxAttackSpeed is False");
         }
+
     }
     public void SetInvunerabilityValue(bool value)
     {
@@ -29,9 +30,15 @@ public class SaveCheats : MonoBehaviour
     {
         if(name.text != "") PlayerPrefs.SetString("Name", name.text); //sets name
         else PlayerPrefs.SetString("Name", "Player"); //if name is blank
-        //Debug.Log(name.text);
         PlayerPrefs.SetInt("HP", 50); //set hp
+        //D
         PlayerPrefs.SetInt("Sheilds", 2); // set shields
         PlayerPrefs.SetFloat("AttackSpeed", 1.0f); //set attackspeed
+
+        //Debug.Log(PlayerPrefs.GetString("Name"));
+        //Debug.Log(PlayerPrefs.GetInt("HP"));
+        //Debug.Log(PlayerPrefs.GetFloat("AttackSpeed"));
+        //Debug.Log(PlayerPrefs.GetInt("MaxAttackSpeed"));
+        //Debug.Log(PlayerPrefs.GetInt("Invunerablility"));
     }
 }

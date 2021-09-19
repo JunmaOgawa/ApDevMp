@@ -30,14 +30,16 @@ public class Player : MonoBehaviour
     [Space]
 
     [Header("HP And Name")]
-    public int HP = PlayerPrefs.GetInt("HP");
-    public string Name = PlayerPrefs.GetString("Name");
+    public int HP;
+    public string Name;
 
     // Start is called before the first frame update
     void Start()
     {
         playerModel = transform.GetChild(0);
         SetSpeed(forwardSpeed);
+        HP = PlayerPrefs.GetInt("HP");
+        Name = PlayerPrefs.GetString("Name");
     }
 
     // Update is called once per frame

@@ -14,14 +14,15 @@ public class ShootForward : MonoBehaviour
     bool firing = false;
     // Update is called once per frame
 
-    private void Start()
+    private void Awake()
     {
         if (PlayerPrefs.GetInt("MaxAttackSpeed") == 1)
         {
             fireRate = 0.4f;//2.5 AttackSpeed
             //Debug.Log(PlayerPrefs.GetInt("MaxAttackSpeed"));
         }
-        else fireRate = PlayerPrefs.GetInt("AttackSpeed");
+        else fireRate = PlayerPrefs.GetFloat("AttackSpeed");
+        Debug.Log(fireRate);
     }
 
     private void FixedUpdate()
