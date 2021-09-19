@@ -7,6 +7,8 @@ public class GestureManager : MonoBehaviour
 {
     public static GestureManager Instance;
 
+    public GameObject barrier;
+
     public SwipeProperty _swipePropery;
     public EventHandler<SwipeEventArgs> OnSwipe;
 
@@ -103,13 +105,13 @@ public class GestureManager : MonoBehaviour
             if (dist > 0)
             {
                 Debug.Log("Spread");
-                //gameHandler.AddHistoryNote(Notes.SPREAD);
+                barrier.SetActive(true);
                 activeGesture = true;
             }
             else
             {
                 Debug.Log("Pinch");
-                //ameHandler.AddHistoryNote(Notes.PINCH);
+                barrier.SetActive(false);
                 activeGesture = true;
             }
         }
