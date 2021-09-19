@@ -5,7 +5,7 @@ using UnityEngine;
 public class BallHit : MonoBehaviour
 {
 
-
+    
 
     private void OnCollisionEnter(UnityEngine.Collision collision)
     {

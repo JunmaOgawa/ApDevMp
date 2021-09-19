@@ -30,7 +30,7 @@ public class SaveCheats : MonoBehaviour
     {
         if(name.text != "") PlayerPrefs.SetString("Name", name.text); //sets name
         else PlayerPrefs.SetString("Name", "Player"); //if name is blank
-        PlayerPrefs.SetInt("HP", 50); //set hp
+        PlayerPrefs.SetInt("HP", 20); //set hp
         //D
         PlayerPrefs.SetInt("Sheilds", 2); // set shields
         PlayerPrefs.SetFloat("AttackSpeed", 1.0f); //set attackspeed

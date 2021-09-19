@@ -1634,6 +1634,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 3846359664759364296, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_TagString
+      value: Shield
+      objectReference: {fileID: 0}
     - target: {fileID: 5423758481186252506, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1662,6 +1666,10 @@ PrefabInstance:
       propertyPath: rBullet
       value: 
       objectReference: {fileID: 4222127380515268393, guid: 38ba1f05e84e7e84cb6dab39aa73e8e8, type: 3}
+    - target: {fileID: 5423758481186252509, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 1151709107}
     - target: {fileID: 5423758481186252510, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_Layer
       value: 3
