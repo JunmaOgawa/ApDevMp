@@ -53,9 +53,24 @@ public class Player : MonoBehaviour
         LocalMove(h, v, xySpeed);
         RotationLook(h, v, lookSpeed);
         HorizontalLean(playerModel, h, 80, .1f);
+
+        if (HP <= 0)
+        {
+            Destroy(gameObject);
+            FindObjectOfType<AudioManager>().Play("Death");
+        }
     }
 
-    void LocalMove(float x, float y, float speed)
+    private void OnCollisionEnter(UnityEngine.Collision collision)
+    {
+        if(collision.collider.tag == "EnemyBullet")
+        {
+            GotHit();
+        }
+        FindObjectOfType<AudioManager>().Play("Hit");
+    }
+
+        void LocalMove(float x, float y, float speed)
     {
         transform.localPosition += new Vector3(x, y, 0) * speed * Time.deltaTime;
         ClampPosition();
