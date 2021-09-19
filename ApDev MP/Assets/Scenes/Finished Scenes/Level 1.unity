@@ -490,8 +490,17 @@ PrefabInstance:
       propertyPath: boss
       value: 
       objectReference: {fileID: 5423758481185351831}
+    - target: {fileID: 9070710298671556270, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
+      propertyPath: bossHp
+      value: 
+      objectReference: {fileID: 438059097}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc72023b943dcef4e9440dffef5dc3e3, type: 3}
+--- !u!1 &438059097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 754494347667966407, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
+  m_PrefabInstance: {fileID: 5455899230079045759}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &504698191 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5455899229977658672, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
@@ -1597,9 +1606,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -6.57
       objectReference: {fileID: 0}
+    - target: {fileID: 3673648042233583874, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673648042233583874, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3674627414232746266, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674627414232746266, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5423758481186252506, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
       propertyPath: m_Enabled
@@ -1715,6 +1736,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 337772391416570163, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 337772391416570163, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 754494347667966407, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4387624145856874436, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1770,6 +1803,14 @@ PrefabInstance:
     - target: {fileID: 4764001617887655989, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035445839660901277, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 297170974}
+    - target: {fileID: 5035445839660901277, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
+      propertyPath: enemy
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5455899230247673456, guid: ca04accb4e559f84ba681dcee5f4bcac, type: 3}
       propertyPath: m_Pivot.x
