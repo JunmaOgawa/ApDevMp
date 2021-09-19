@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShootForward : MonoBehaviour
 {
-    public Rigidbody bullet;
+
     public Rigidbody rBullet;
     public Rigidbody gBullet;
     public Rigidbody bBullet;
@@ -13,6 +13,10 @@ public class ShootForward : MonoBehaviour
     public float fireRate = .5f;
     bool firing = false;
     // Update is called once per frame
+
+    public int bulletType = 0;
+    Rigidbody newBullet;
+    //Rigidbody bullet = rBullet;
 
     private void Awake()
     {
@@ -27,36 +31,51 @@ public class ShootForward : MonoBehaviour
 
     private void FixedUpdate()
     {
-           /* if (fireCountDown <= 0)
+        /* if (fireCountDown <= 0)
+         {
+             Fire();
+             fireCountDown = 1f / fireRate;
+         }
+         fireCountDown -= Time.deltaTime;*/
+
+        if (fireCountDown >= 0)
+        {
+            fireCountDown -= Time.deltaTime;
+        }
+        else
+        {
+            fireCountDown += fireRate;
+            if (Input.GetKey(KeyCode.Space))
             {
                 Fire();
-                fireCountDown = 1f / fireRate;
             }
-            fireCountDown -= Time.deltaTime;*/
-
-            if(fireCountDown >= 0)
+            else if (firing)
             {
-                fireCountDown -= Time.deltaTime;
+                Fire();
             }
-            else
-            {
-                fireCountDown += fireRate;
-                if (Input.GetKey(KeyCode.Space))
-                {
-                    Fire();
-                }
-                else if (firing)
-                {
-                    Fire();
-                }
-            }
-    }    
+        }
+    }
 
     public void Fire()
     {
-        Rigidbody newBullet = Instantiate(bullet, transform.position, bullet.rotation) as Rigidbody;
-        newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
-        FindObjectOfType<AudioManager>().Play("Shoot");
+        switch (bulletType)
+        {
+            case 0:
+                newBullet = Instantiate(rBullet, transform.position, rBullet.rotation) as Rigidbody;
+                newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
+                FindObjectOfType<AudioManager>().Play("Shoot");
+                break;
+            case 1:
+                newBullet = Instantiate(gBullet, transform.position, gBullet.rotation) as Rigidbody;
+                newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
+                FindObjectOfType<AudioManager>().Play("Shoot");
+                break;
+            case 2:
+                newBullet = Instantiate(bBullet, transform.position, bBullet.rotation) as Rigidbody;
+                newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
+                FindObjectOfType<AudioManager>().Play("Shoot");
+                break;
+        }
     }
     public void FireOn()
     {
@@ -65,5 +84,9 @@ public class ShootForward : MonoBehaviour
     public void FireOff()
     {
         firing = false;
+    }
+
+    public void ChangeBulletType (int bulletNum){
+        bulletType = (bulletType + bulletNum) % 3;
     }
 }

@@ -19,6 +19,8 @@ public class GestureManager : MonoBehaviour
     public Player player;
     private bool activeGesture = false;
 
+    public ShootForward shoot;
+
     private Vector2 starPoint = Vector2.zero;
     private Vector2 endPoint = Vector2.zero;
 
@@ -134,6 +136,19 @@ public class GestureManager : MonoBehaviour
             {
                 Debug.Log("left");
                 player.QuickSpin(-1);
+            }
+        }
+        else if(Mathf.Abs(direction.x) < Mathf.Abs(direction.y))
+        {
+            if (direction.y > 0)
+            {
+                Debug.Log("down");
+                shoot.ChangeBulletType(1);
+            }
+            else
+            {
+                Debug.Log("up");
+                shoot.ChangeBulletType(-1);
             }
         }
         activeGesture = true;
