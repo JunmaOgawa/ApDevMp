@@ -66,8 +66,9 @@ public class Player : MonoBehaviour
         if(collision.collider.tag == "EnemyBullet")
         {
             GotHit();
+            FindObjectOfType<AudioManager>().Play("Hit");
         }
-        FindObjectOfType<AudioManager>().Play("Hit");
+        
     }
 
         void LocalMove(float x, float y, float speed)

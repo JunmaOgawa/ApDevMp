@@ -34,6 +34,7 @@ public class SaveCheats : MonoBehaviour
         //D
         PlayerPrefs.SetInt("Sheilds", 2); // set shields
         PlayerPrefs.SetFloat("AttackSpeed", 1.0f); //set attackspeed
+        PlayerPrefs.SetInt("Score", 0);
 
         //Debug.Log(PlayerPrefs.GetString("Name"));
         //Debug.Log(PlayerPrefs.GetInt("HP"));

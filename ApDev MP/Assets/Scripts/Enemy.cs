@@ -35,9 +35,10 @@ public class Enemy : MonoBehaviour
         playerTransform = GameObject.Find("GameplayPlane").transform;//find player transform
         //parameters
         health = 3;//set health
+        if (tag == "Boss") health = 20;
         type = Random.Range(0, 3);//set type
 
-        timeBetweenAttacks = 3;
+        timeBetweenAttacks = 2;
         attackRange = 30;
 
         //change color to type
@@ -70,7 +71,8 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
             FindObjectOfType<AudioManager>().Play("Death");
-            // FindObjectOfType<PointManager>().AddPoints();
+            if(tag == "Boss") FindObjectOfType<PointManager>().AddBossPoints();
+            else FindObjectOfType<PointManager>().AddPoints();
         }
     }
 
