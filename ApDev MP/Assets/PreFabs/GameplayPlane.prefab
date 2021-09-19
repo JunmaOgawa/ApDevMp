@@ -32,6 +32,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5281317634533458821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3674627414232746266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748c4a5fff6af534089f1b9acd4477be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5423758481186252508}
+  playerTransform: {fileID: 5423758481578235420}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  health: 0
+  type: 0
+  projectile: {fileID: 8488170102129871434, guid: 0aa02f35180f0614ca46893ad8b70a8e, type: 3}
+  RedMaterial: {fileID: 2100000, guid: 52fdd2ea89ff8c84b908e0a4aa6ee99a, type: 2}
+  BlueMaterial: {fileID: 2100000, guid: 94639d0cfeda8324cad23e6797104d58, type: 2}
+  GreenMaterial: {fileID: 2100000, guid: a26819d7a7a09c2498fd49758ffa2356, type: 2}
+  timeBetweenAttacks: 0
+  attackRange: 0
+  playerInAttackRange: 0
+  healthbar: {fileID: 0}
 --- !u!1 &3846359664759364296
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +245,7 @@ MonoBehaviour:
   velocity: 50
   fireCountDown: 0
   fireRate: 1
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 5423758481186252511}
   bulletType: 0
 --- !u!65 &5423758481186252506
 BoxCollider:

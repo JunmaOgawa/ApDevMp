@@ -21,7 +21,7 @@ public class BossMan : MonoBehaviour
 
     public Animator animator;
 
-    public HealthBar healthbar;
+    public BossManHealthBar healthbar;
 
     private void Awake()
     {
