@@ -11,6 +11,7 @@ TagManager:
   - Blue
   - Monster
   - EnemyBullet
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - WhatIsPlayer
   - Water
   - UI
-  - 
-  - 
+  - EnemyBullet
+  - Bullet
   - 
   - 
   - 

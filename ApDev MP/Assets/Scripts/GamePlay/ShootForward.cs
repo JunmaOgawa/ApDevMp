@@ -13,6 +13,7 @@ public class ShootForward : MonoBehaviour
     public float fireRate = .5f;
     bool firing = false;
     // Update is called once per frame
+    public Transform playerTransform;
 
     public int bulletType = 0;
     Rigidbody newBullet;
@@ -61,20 +62,20 @@ public class ShootForward : MonoBehaviour
         switch (bulletType)
         {
             case 0:
-                newBullet = Instantiate(rBullet, transform.position, rBullet.rotation) as Rigidbody;
-                newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
+                newBullet = Instantiate(rBullet, playerTransform.position, rBullet.rotation) as Rigidbody;
+                newBullet.AddForce(playerTransform.forward * velocity, ForceMode.VelocityChange);
                 FindObjectOfType<AudioManager>().Play("Shoot");
                 Debug.Log("red");
                 break;
             case 1:
-                newBullet = Instantiate(gBullet, transform.position, gBullet.rotation) as Rigidbody;
-                newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
+                newBullet = Instantiate(gBullet, playerTransform.position, gBullet.rotation) as Rigidbody;
+                newBullet.AddForce(playerTransform.forward * velocity, ForceMode.VelocityChange);
                 FindObjectOfType<AudioManager>().Play("Shoot");
                 Debug.Log("green");
                 break;
             case 2:
-                newBullet = Instantiate(bBullet, transform.position, bBullet.rotation) as Rigidbody;
-                newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
+                newBullet = Instantiate(bBullet, playerTransform.position, bBullet.rotation) as Rigidbody;
+                newBullet.AddForce(playerTransform.forward * velocity, ForceMode.VelocityChange);
                 FindObjectOfType<AudioManager>().Play("Shoot");
                 Debug.Log("blue");
                 break;

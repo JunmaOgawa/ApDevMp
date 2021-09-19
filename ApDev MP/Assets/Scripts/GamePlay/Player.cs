@@ -72,6 +72,7 @@ public class Player : MonoBehaviour
         {
             GotHit();
             FindObjectOfType<AudioManager>().Play("Hit");
+            Destroy(collision.gameObject);
         }
         
     }

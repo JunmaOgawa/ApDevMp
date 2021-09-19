@@ -63,7 +63,7 @@ public class Enemy : MonoBehaviour
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
         if (playerInAttackRange) 
         {
-            Debug.Log("Player is in range");
+            //Debug.Log("Player is in range");
             AttackPlayer(); 
         }
 

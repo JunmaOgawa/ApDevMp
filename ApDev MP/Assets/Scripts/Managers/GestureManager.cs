@@ -166,7 +166,7 @@ public class GestureManager : MonoBehaviour
         return finger.position - finger.deltaPosition;
     }
 
-    IEnumerator GetInvunerable()
+    IEnumerator GetInvunerable()//Iframes
     {
         Physics.IgnoreLayerCollision(3, 6, true);
         yield return new WaitForSeconds(1.5f);
