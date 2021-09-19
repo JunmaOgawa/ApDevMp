@@ -64,16 +64,19 @@ public class ShootForward : MonoBehaviour
                 newBullet = Instantiate(rBullet, transform.position, rBullet.rotation) as Rigidbody;
                 newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
                 FindObjectOfType<AudioManager>().Play("Shoot");
+                Debug.Log("red");
                 break;
             case 1:
                 newBullet = Instantiate(gBullet, transform.position, gBullet.rotation) as Rigidbody;
                 newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
                 FindObjectOfType<AudioManager>().Play("Shoot");
+                Debug.Log("green");
                 break;
             case 2:
                 newBullet = Instantiate(bBullet, transform.position, bBullet.rotation) as Rigidbody;
                 newBullet.AddForce(transform.forward * velocity, ForceMode.VelocityChange);
                 FindObjectOfType<AudioManager>().Play("Shoot");
+                Debug.Log("blue");
                 break;
         }
     }
@@ -87,6 +90,6 @@ public class ShootForward : MonoBehaviour
     }
 
     public void ChangeBulletType (int bulletNum){
-        bulletType = (bulletType + bulletNum) % 3;
+        bulletType = Mathf.Abs((bulletType + bulletNum) % 3);
     }
 }
