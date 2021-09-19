@@ -10,7 +10,7 @@ public class BossMan : MonoBehaviour
     public LayerMask whatIsPlayer;
 
     //parameters
-    public float health;
+    public int health;
     public int type; //0 = R, 1 = G, 2 = B
 
     //attacking
@@ -21,6 +21,8 @@ public class BossMan : MonoBehaviour
 
     public Animator animator;
 
+    public HealthBar healthbar;
+
     private void Awake()
     {
         playerTransform = GameObject.Find("GameplayPlane").transform;//find player transform
@@ -30,6 +32,8 @@ public class BossMan : MonoBehaviour
 
         timeBetweenAttacks = 20f;
         attackRange = 10000;
+
+        healthbar.SetMaxHealth(health);
     }
 
     private void Update()
@@ -48,6 +52,7 @@ public class BossMan : MonoBehaviour
             Destroy(gameObject);
             FindObjectOfType<AudioManager>().Play("Death");
         }
+        healthbar.SetHealth(health);
     }
 
     private void AttackPlayer()
