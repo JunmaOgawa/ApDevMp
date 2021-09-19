@@ -131,11 +131,13 @@ public class GestureManager : MonoBehaviour
             {
                 Debug.Log("right");
                 player.QuickSpin(1);
+                StartCoroutine("GetInvunerable");
             }
             else
             {
                 Debug.Log("left");
                 player.QuickSpin(-1);
+                StartCoroutine("GetInvunerable");
             }
         }
         else if(Mathf.Abs(direction.x) < Mathf.Abs(direction.y))
@@ -162,5 +164,12 @@ public class GestureManager : MonoBehaviour
     private Vector2 GetPreviousPoint(Touch finger)
     {
         return finger.position - finger.deltaPosition;
+    }
+
+    IEnumerator GetInvunerable()
+    {
+        Physics.IgnoreLayerCollision(3, 6, true);
+        yield return new WaitForSeconds(1.5f);
+        Physics.IgnoreLayerCollision(3, 6, false);
     }
 }
