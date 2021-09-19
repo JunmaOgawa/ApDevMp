@@ -169,7 +169,7 @@ public class GestureManager : MonoBehaviour
     IEnumerator GetInvunerable()//Iframes
     {
         Physics.IgnoreLayerCollision(3, 6, true);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         Physics.IgnoreLayerCollision(3, 6, false);
     }
 }
