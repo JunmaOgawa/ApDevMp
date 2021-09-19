@@ -9,10 +9,7 @@ TagManager:
   - Red
   - Green
   - Blue
-<<<<<<< Updated upstream
-=======
   - Monster
->>>>>>> Stashed changes
   - EnemyBullet
   layers:
   - Default
@@ -22,31 +19,31 @@ TagManager:
   - Water
   - UI
   - WhatIsPlayer
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: Default
     uniqueID: 0

@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameplayPlane
       objectReference: {fileID: 0}
+    - target: {fileID: 5423758481578235423, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48d764b6457084e4da2ae87054fbe9ac, type: 3}
 --- !u!1 &13698900 stripped
@@ -2181,7 +2185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8910376803694064831, guid: 969f830685e8b7d4982b98ea78defac9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8910376803694064831, guid: 969f830685e8b7d4982b98ea78defac9, type: 3}
       propertyPath: m_LocalPosition.x
