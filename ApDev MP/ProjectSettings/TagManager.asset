@@ -9,6 +9,10 @@ TagManager:
   - Red
   - Green
   - Blue
+<<<<<<< Updated upstream
+=======
+  - Monster
+>>>>>>> Stashed changes
   - EnemyBullet
   layers:
   - Default
@@ -17,7 +21,7 @@ TagManager:
   - WhatIsPlayer
   - Water
   - UI
-  - 
+  - WhatIsPlayer
   - 
   - 
   - 
