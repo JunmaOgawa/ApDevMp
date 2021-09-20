@@ -1,5 +1,57 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &585671175620797026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3514086812051126760}
+  - component: {fileID: 2900371628799901271}
+  m_Layer: 6
+  m_Name: Bullet Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3514086812051126760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585671175620797026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5423758481186252511}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2900371628799901271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585671175620797026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988bb996adb38d24699ba520c008dd46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBullet: {fileID: 4222127380515268393, guid: 38ba1f05e84e7e84cb6dab39aa73e8e8, type: 3}
+  gBullet: {fileID: 4222127380515268393, guid: c9bace4209cb4464c85e8f1a8c05cd53, type: 3}
+  bBullet: {fileID: 4222127380515268393, guid: 265ab5ce435d4314e9852aa705f722f8, type: 3}
+  velocity: 50
+  fireCountDown: 0
+  fireRate: 0.5
+  playerTransform: {fileID: 3514086812051126760}
+  bulletType: 0
+  colorCornerUI: {fileID: 0}
 --- !u!54 &823544844522373302
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16,22 +68,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!54 &2140237372415528694
-Rigidbody:
+--- !u!65 &2188813149589415748
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3674627414232746266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Size: {x: 2, y: 1.5, z: 1.5}
+  m_Center: {x: 0, y: 0.89, z: 0}
 --- !u!114 &5281317634533458821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,22 +203,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.0000009536742, y: 0, z: 0}
---- !u!54 &1722040310962397183
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3993384333701698826}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &5423758481186252510
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,7 +213,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5423758481186252511}
   - component: {fileID: 5423758481186252508}
-  - component: {fileID: 5423758481186252509}
   - component: {fileID: 5423758481186252506}
   m_Layer: 6
   m_Name: Player
@@ -202,6 +234,7 @@ Transform:
   m_Children:
   - {fileID: 5423758481306486608}
   - {fileID: 930989657007110576}
+  - {fileID: 3514086812051126760}
   m_Father: {fileID: 5423758481578235420}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -227,26 +260,7 @@ MonoBehaviour:
   HP: 0
   Name: 
   healthbar: {fileID: 0}
---- !u!114 &5423758481186252509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5423758481186252510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 988bb996adb38d24699ba520c008dd46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rBullet: {fileID: 0}
-  gBullet: {fileID: 0}
-  bBullet: {fileID: 0}
-  velocity: 50
-  fireCountDown: 0
-  fireRate: 1
-  playerTransform: {fileID: 5423758481186252511}
-  bulletType: 0
+  GameOver: {fileID: 0}
 --- !u!65 &5423758481186252506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5708,22 +5722,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.0000009536742, y: 0, z: 0}
---- !u!54 &2977223489711330349
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421964856120482268}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &3672879071132964878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6081,11 +6079,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32303dc3554fcfc419798a1f0235187f, type: 3}
---- !u!1 &3993384333701698826 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 191634, guid: 32303dc3554fcfc419798a1f0235187f, type: 3}
-  m_PrefabInstance: {fileID: 3993384333701593496}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3993384333701486948 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 499964, guid: 32303dc3554fcfc419798a1f0235187f, type: 3}
@@ -6510,11 +6503,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 149131e59d8781f40a944a386095234b, type: 3}
---- !u!1 &8421964856120482268 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 149131e59d8781f40a944a386095234b, type: 3}
-  m_PrefabInstance: {fileID: 8656408572389729421}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9199451915997594470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 149131e59d8781f40a944a386095234b, type: 3}

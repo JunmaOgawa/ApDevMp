@@ -19,6 +19,8 @@ public class ShootForward : MonoBehaviour
     Rigidbody newBullet;
     //Rigidbody bullet = rBullet;
 
+    public ImageHandler colorCornerUI;
+
     private void Awake()
     {
         if (PlayerPrefs.GetInt("MaxAttackSpeed") == 1)
@@ -91,6 +93,8 @@ public class ShootForward : MonoBehaviour
     }
 
     public void ChangeBulletType (int bulletNum){
-        bulletType = Mathf.Abs((bulletType + bulletNum) % 3);
+        bulletType = bulletType + bulletNum % 3;
+        if (bulletType == -1) bulletType = 2;
+        colorCornerUI.ChangeColor(bulletType);
     }
 }

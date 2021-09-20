@@ -27,7 +27,7 @@ public class BossBehavior : MonoBehaviour
     public float attackRange;
     public bool playerInAttackRange;
 
-    public bossHealthBar healthbar;
+    public  bossHealthBar healthbar;
 
     //pointManager
     //public PointManager pointManager;
@@ -74,9 +74,9 @@ public class BossBehavior : MonoBehaviour
         {
             Destroy(gameObject);
             FindObjectOfType<AudioManager>().Play("Death");
-            // FindObjectOfType<PointManager>().AddPoints();
+            FindObjectOfType<PointManager>().AddBossPoints();
         }
-        healthbar.SetMaxHealth(health);
+        healthbar.SetHealth(health);
     }
 
     private void AttackPlayer()

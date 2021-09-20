@@ -34,6 +34,8 @@ public class Player : MonoBehaviour
     public string Name;
     public HealthBar healthbar;
 
+    public GameObject GameOver;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,6 +65,7 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
             FindObjectOfType<AudioManager>().Play("Death");
+            GameOver.SetActive(true);
         }
     }
 

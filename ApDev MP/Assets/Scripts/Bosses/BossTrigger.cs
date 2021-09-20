@@ -12,7 +12,7 @@ public class BossTrigger : MonoBehaviour
         {
             boss.SetActive(true);
             bossHp.SetActive(true);
-            Debug.Log("it works bitch");
+            //Debug.Log("it works");
         }
     }
 }

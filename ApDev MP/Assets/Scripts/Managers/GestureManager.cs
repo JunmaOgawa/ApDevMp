@@ -104,17 +104,11 @@ public class GestureManager : MonoBehaviour
     {
         if (activeGesture == false)
         {
-            if (dist > 0)
-            {
-                Debug.Log("Spread");
-                barrier.SetActive(true);
-                activeGesture = true;
-            }
-            else
+            if (dist < 0)
             {
                 Debug.Log("Pinch");
-                barrier.SetActive(false);
                 activeGesture = true;
+                StartCoroutine("GetBarrier");
             }
         }
     }
@@ -171,5 +165,11 @@ public class GestureManager : MonoBehaviour
         Physics.IgnoreLayerCollision(3, 6, true);
         yield return new WaitForSeconds(2f);
         Physics.IgnoreLayerCollision(3, 6, false);
+    }
+    IEnumerator GetBarrier()
+    {
+        barrier.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        barrier.SetActive(false);
     }
 }
