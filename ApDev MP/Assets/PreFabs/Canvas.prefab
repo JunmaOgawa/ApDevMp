@@ -104,6 +104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 1665291508813789912}
   player: {fileID: 0}
+  boss: {fileID: 0}
+  bossMan: {fileID: 0}
 --- !u!1 &900452776157277731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 3675022586007349228}
   player: {fileID: 0}
+  boss: {fileID: 0}
+  bossMan: {fileID: 0}
 --- !u!1 &7872275383185750060
 GameObject:
   m_ObjectHideFlags: 0
