@@ -27,7 +27,7 @@ public class BossBehavior : MonoBehaviour
     public float attackRange;
     public bool playerInAttackRange;
 
-    public HealthBar healthbar;
+    public bossHealthBar healthbar;
 
     //pointManager
     //public PointManager pointManager;

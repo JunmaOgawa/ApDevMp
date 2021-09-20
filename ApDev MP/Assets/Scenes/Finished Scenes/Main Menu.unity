@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 161841127}
   - component: {fileID: 161841126}
   m_Layer: 0
-  m_Name: BG TitleScreen
+  m_Name: Audio source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

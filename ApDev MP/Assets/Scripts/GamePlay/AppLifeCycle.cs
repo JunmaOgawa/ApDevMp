@@ -7,6 +7,7 @@ public class AppLifeCycle : MonoBehaviour
     public GameObject pauseObject;
     public GameObject pauseButton;
     public GameObject resumeButton;
+    public GameObject quitButton;
 
     public void Pause()
     {
@@ -32,12 +33,19 @@ public class AppLifeCycle : MonoBehaviour
     {
         pauseButton.SetActive(false);
         resumeButton.SetActive(true);
+        quitButton.SetActive(true);
         Pause();
     }
     public void onResumeButtonPressed()
     {
         pauseButton.SetActive(true);
         resumeButton.SetActive(false);
+        quitButton.SetActive(false);
         Resume();
+    }
+
+    public void onQuitButtonPressed()
+    {
+        Application.Quit();
     }
 }
